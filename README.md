@@ -1,5 +1,7 @@
 # Example graphql-ez + gqty
 
+This example is using [GraphQL EZ](https://www.graphql-ez.com/) with the plugins [EZ GraphiQL IDE](https://www.graphql-ez.com/plugins/graphiql), [EZ Codegen](https://www.graphql-ez.com/plugins/codegen) and [EZ Schema](https://www.graphql-ez.com/plugins/schema)
+
 ## Install
 
 ```
