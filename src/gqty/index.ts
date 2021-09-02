@@ -12,8 +12,11 @@ import {
   SchemaObjectTypesNames,
 } from "./schema.generated";
 
+export const API_ENDPOINT =
+  typeof window !== "undefined" ? "/api/graphql" : "https://ez-example.gqty.dev/api/graphql";
+
 const queryFetcher: QueryFetcher = async function (query, variables) {
-  const response = await fetch("http://localhost:3000/api/graphql", {
+  const response = await fetch(API_ENDPOINT, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
