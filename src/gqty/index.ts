@@ -2,7 +2,6 @@
  * GQTY: You can safely modify this file and Query Fetcher based on your needs
  */
 
-import { createLogger } from "@gqty/logger";
 import { createReactClient } from "@gqty/react";
 import { createClient, QueryFetcher } from "gqty";
 import {
@@ -37,9 +36,11 @@ export const client = createClient<GeneratedSchema, SchemaObjectTypesNames, Sche
 });
 
 if (process.env.NODE_ENV !== "production" && typeof window !== "undefined") {
-  const logger = createLogger(client);
+  import("@gqty/logger").then(({ createLogger }) => {
+    const logger = createLogger(client);
 
-  logger.start();
+    logger.start();
+  });
 }
 
 export const { query, mutation, mutate, subscription, resolved, refetch, track } = client;
