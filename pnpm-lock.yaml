@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@gqty/cli': ^1.1.4
-  '@gqty/logger': ^1.0.3
+  '@gqty/logger': ^1.0.4
   '@gqty/react': ^1.1.0
   '@graphql-ez/nextjs': ^0.9.4
   '@graphql-ez/plugin-codegen': ^0.7.2
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@gqty/cli': 1.1.4_graphql@15.5.2
-  '@gqty/logger': 1.0.3_gqty@1.1.1
+  '@gqty/logger': 1.0.4_gqty@1.1.1
   '@gqty/react': 1.1.0_86ac5c0036b5c82232a16c9a751355e6
   '@graphql-ez/nextjs': 0.9.4_234922544c5af55c00aa64da54d1c497
   '@graphql-ez/plugin-codegen': 0.7.2_37ae0dc5a472d46afbbf0110e56b5e93
@@ -642,11 +642,11 @@ packages:
       - supports-color
     dev: false
 
-  /@gqty/logger/1.0.3_gqty@1.1.1:
-    resolution: {integrity: sha512-5SLerX73+GWYYRHXtdPTngKRhldt+RRtf2LInXv2fKoovlH3pcKecioUxP56chbPao0gEI9Ul7YmuusW+FZ3uA==}
+  /@gqty/logger/1.0.4_gqty@1.1.1:
+    resolution: {integrity: sha512-mQzjMDz6k2iU42j7Micwe/cWW8A57mM0ewhtTepjJqZ3iyb12Ro95KRULCm/op5KZt7W35hNLHZ93ThjbDndfw==}
     engines: {node: '>=12'}
     peerDependencies:
-      gqty: ^1.1.1
+      gqty: ^1.1.2
     dependencies:
       gqty: 1.1.1_graphql@15.5.2
       prettier: 2.3.2
