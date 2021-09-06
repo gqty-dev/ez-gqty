@@ -11,7 +11,7 @@ specifiers:
   '@types/node': ^16.7.10
   '@types/react': ^17.0.20
   concurrently: ^6.2.1
-  gqty: ^1.1.2
+  gqty: ^1.1.3
   graphql: ^15.5.3
   graphql-ez: ^0.12.7
   next: ^11.1.2
@@ -23,13 +23,13 @@ specifiers:
 
 dependencies:
   '@gqty/cli': 1.1.4_graphql@15.5.3
-  '@gqty/logger': 1.0.4_gqty@1.1.2
-  '@gqty/react': 1.1.1_41cc446ade3db870e251bbb65825915a
+  '@gqty/logger': 1.0.4_gqty@1.1.3
+  '@gqty/react': 1.1.1_7b4938386f40d0606c018fa3b556b064
   '@graphql-ez/nextjs': 0.9.4_6d40e3bf8dbd1925ee636ae2edb96d1b
   '@graphql-ez/plugin-codegen': 0.7.2_c681ae4ef4b4c3fb142bd73dd1e8cc7f
   '@graphql-ez/plugin-graphiql': 0.9.1_c681ae4ef4b4c3fb142bd73dd1e8cc7f
   '@graphql-ez/plugin-schema': 0.7.2_c681ae4ef4b4c3fb142bd73dd1e8cc7f
-  gqty: 1.1.2_graphql@15.5.3
+  gqty: 1.1.3_graphql@15.5.3
   graphql: 15.5.3
   graphql-ez: 0.12.7_7015bb160524463e6f3a35b8df07c8b6
   next: 11.1.2_01b6e46c81e6fda6a6d233df547d9171
@@ -642,18 +642,18 @@ packages:
       - supports-color
     dev: false
 
-  /@gqty/logger/1.0.4_gqty@1.1.2:
+  /@gqty/logger/1.0.4_gqty@1.1.3:
     resolution: {integrity: sha512-mQzjMDz6k2iU42j7Micwe/cWW8A57mM0ewhtTepjJqZ3iyb12Ro95KRULCm/op5KZt7W35hNLHZ93ThjbDndfw==}
     engines: {node: '>=12'}
     peerDependencies:
       gqty: ^1.1.2
     dependencies:
-      gqty: 1.1.2_graphql@15.5.3
+      gqty: 1.1.3_graphql@15.5.3
       prettier: 2.3.2
       serialize-error: 8.1.0
     dev: false
 
-  /@gqty/react/1.1.1_41cc446ade3db870e251bbb65825915a:
+  /@gqty/react/1.1.1_7b4938386f40d0606c018fa3b556b064:
     resolution: {integrity: sha512-l0i+zB3Z5zOkYTyvuiLjLsrHGQnVul04PZph3RwopWnutvpVvxjwCJXXiu4DNeh79N4k+sB7ra7EBHDpogFjfg==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -661,7 +661,7 @@ packages:
       graphql: ^15.5.2
       react: '>=16.8'
     dependencies:
-      gqty: 1.1.2_graphql@15.5.3
+      gqty: 1.1.3_graphql@15.5.3
       graphql: 15.5.3
       react: 17.0.2
       react-ssr-prepass: 1.4.0_react@17.0.2
@@ -2227,6 +2227,16 @@ packages:
 
   /gqty/1.1.2_graphql@15.5.3:
     resolution: {integrity: sha512-v8Xu8E7QRFwMl4/wwBYXu8TzLhcYzNoQruI4DNWYOOf+47zYl3gvKEzu0Y5WIuYfuSI8BQkJM0GxREkq7DrAFg==}
+    peerDependencies:
+      graphql: ^15.5.2
+    dependencies:
+      graphql: 15.5.3
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+    dev: false
+
+  /gqty/1.1.3_graphql@15.5.3:
+    resolution: {integrity: sha512-b4vs8IiRBmOIJrRzvu6dvTEYYktNaBQFZrmGmmpyd9o4aPFZXMEaf3kpjEPShCtqLfGl/pxEaAA3So4mvIfIkg==}
     peerDependencies:
       graphql: ^15.5.2
     dependencies:
