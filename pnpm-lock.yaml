@@ -9,7 +9,7 @@ specifiers:
   '@graphql-ez/plugin-graphiql': ^0.10.1
   '@graphql-ez/plugin-schema': ^0.7.3
   '@types/node': ^16.7.10
-  '@types/react': ^17.0.22
+  '@types/react': ^17.0.24
   concurrently: ^6.2.1
   gqty: ^2.0.1
   graphql: ^15.6.0
@@ -38,7 +38,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 16.7.10
-  '@types/react': 17.0.22
+  '@types/react': 17.0.24
   concurrently: 6.2.1
   open-cli: 7.0.1
   typescript: 4.4.3
@@ -1208,8 +1208,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react/17.0.22:
-    resolution: {integrity: sha512-kq/BMeaAVLJM6Pynh8C2rnr/drCK+/5ksH0ch9asz+8FW3DscYCIEFtCeYTFeIx/ubvOsMXmRfy7qEJ76gM96A==}
+  /@types/react/17.0.24:
+    resolution: {integrity: sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
