@@ -10,7 +10,7 @@
   "dependencies": {
     "@gqty/cli": "^2.0.1",
     "@gqty/logger": "^2.0.0",
-    "@gqty/react": "^1.1.1",
+    "@gqty/react": "^2.0.0",
     "@graphql-ez/nextjs": "^0.10.0",
     "@graphql-ez/plugin-codegen": "^0.7.3",
     "@graphql-ez/plugin-graphiql": "^0.10.1",

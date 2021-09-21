@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@gqty/cli': ^2.0.1
   '@gqty/logger': ^2.0.0
-  '@gqty/react': ^1.1.1
+  '@gqty/react': ^2.0.0
   '@graphql-ez/nextjs': ^0.10.0
   '@graphql-ez/plugin-codegen': ^0.7.3
   '@graphql-ez/plugin-graphiql': ^0.10.1
@@ -24,7 +24,7 @@ specifiers:
 dependencies:
   '@gqty/cli': 2.0.1_graphql@15.6.0
   '@gqty/logger': 2.0.0_gqty@1.1.3
-  '@gqty/react': 1.1.1_c17b4ea0f78f614aa2df9b8584f5fd99
+  '@gqty/react': 2.0.0_c17b4ea0f78f614aa2df9b8584f5fd99
   '@graphql-ez/nextjs': 0.10.0_93adbfd404a05305c44b083a5059fda9
   '@graphql-ez/plugin-codegen': 0.7.3_8b1db5d2d2148fd9021785c1c6608a66
   '@graphql-ez/plugin-graphiql': 0.10.1_8b1db5d2d2148fd9021785c1c6608a66
@@ -653,12 +653,12 @@ packages:
       serialize-error: 8.1.0
     dev: false
 
-  /@gqty/react/1.1.1_c17b4ea0f78f614aa2df9b8584f5fd99:
-    resolution: {integrity: sha512-l0i+zB3Z5zOkYTyvuiLjLsrHGQnVul04PZph3RwopWnutvpVvxjwCJXXiu4DNeh79N4k+sB7ra7EBHDpogFjfg==}
+  /@gqty/react/2.0.0_c17b4ea0f78f614aa2df9b8584f5fd99:
+    resolution: {integrity: sha512-HhZQtCI+HvixWez16fQ9iK+zQvijwaBzUQfCTDoHAEpyO+5JvQHhRxWtY0PLxhySuvK2KONyQLdBlp9TIYaCyw==}
     engines: {node: '>=12'}
     peerDependencies:
-      gqty: ^1.1.2
-      graphql: ^15.5.2
+      gqty: ^2.0.0
+      graphql: '*'
       react: '>=16.8'
     dependencies:
       gqty: 1.1.3_graphql@15.6.0
