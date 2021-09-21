@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@gqty/cli': ^2.0.0
+  '@gqty/cli': ^2.0.1
   '@gqty/logger': ^2.0.0
   '@gqty/react': ^1.1.1
   '@graphql-ez/nextjs': ^0.10.0
@@ -22,7 +22,7 @@ specifiers:
   wait-on: ^6.0.0
 
 dependencies:
-  '@gqty/cli': 2.0.0_graphql@15.6.0
+  '@gqty/cli': 2.0.1_graphql@15.6.0
   '@gqty/logger': 2.0.0_gqty@1.1.3
   '@gqty/react': 1.1.1_c17b4ea0f78f614aa2df9b8584f5fd99
   '@graphql-ez/nextjs': 0.10.0_93adbfd404a05305c44b083a5059fda9
@@ -619,8 +619,8 @@ packages:
       graphql: 15.6.0
     dev: false
 
-  /@gqty/cli/2.0.0_graphql@15.6.0:
-    resolution: {integrity: sha512-0tu/kDV8Mi7EiaQOVhEZfeCqofyWZTFdQinHgmCY3CO9evjjb6k6mhDSE5kpDQphmcFsuNkclqz8yiY1DUeHMw==}
+  /@gqty/cli/2.0.1_graphql@15.6.0:
+    resolution: {integrity: sha512-QlktBKatAWPoX0SzNO99d02cbVPvyE85OusAf3wL1FMtWvm5vFlKpCYNTAt2ph/FXFHkQnlDxaxsMQHG7NClkA==}
     engines: {node: ^12.20.0 || >=14.13.0}
     hasBin: true
     peerDependencies:
@@ -634,7 +634,7 @@ packages:
       commander: 8.2.0
       cosmiconfig: 7.0.1
       cross-fetch: 3.1.4
-      gqty: 2.0.0_graphql@15.6.0
+      gqty: 2.0.1_graphql@15.6.0
       graphql: 15.6.0
       mkdirp: 1.0.4
       prettier: 2.4.1
@@ -2269,8 +2269,8 @@ packages:
       lodash-es: 4.17.21
     dev: false
 
-  /gqty/2.0.0_graphql@15.6.0:
-    resolution: {integrity: sha512-1HkTLpKAsMYodzwQixoYseQycDYOH6Cl7pFZsr7rA8MTDkb52pCmxDv4SM5HReqSJvCnNBpd5vSbcV5Qclksbw==}
+  /gqty/2.0.1_graphql@15.6.0:
+    resolution: {integrity: sha512-+4yfRR24rzmH0Vb5N6eC03IPxcSNhM6iV0AUV92RJM+RKvCL8sm+pvnoxMiQ9sojUoqjcvL5BQGmVvaEsnqKNw==}
     peerDependencies:
       graphql: '*'
     dependencies:
