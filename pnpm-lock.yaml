@@ -7,7 +7,7 @@ specifiers:
   '@graphql-ez/nextjs': ^0.10.0
   '@graphql-ez/plugin-codegen': ^0.7.4
   '@graphql-ez/plugin-graphiql': ^0.10.1
-  '@graphql-ez/plugin-schema': ^0.7.3
+  '@graphql-ez/plugin-schema': ^0.8.0
   '@types/node': ^16.7.10
   '@types/react': ^17.0.30
   concurrently: ^6.3.0
@@ -28,7 +28,7 @@ dependencies:
   '@graphql-ez/nextjs': 0.10.0_c1b89f11ed5bf174b4ed5f38058415f8
   '@graphql-ez/plugin-codegen': 0.7.4_475553734ef4122f55fd1ee8763b5a14
   '@graphql-ez/plugin-graphiql': 0.10.1_475553734ef4122f55fd1ee8763b5a14
-  '@graphql-ez/plugin-schema': 0.7.3_475553734ef4122f55fd1ee8763b5a14
+  '@graphql-ez/plugin-schema': 0.8.0_475553734ef4122f55fd1ee8763b5a14
   gqty: 2.0.2_graphql@15.6.1
   graphql: 15.6.1
   graphql-ez: 0.13.2_83b9f9d1d635f16b165e318f6c235826
@@ -831,16 +831,16 @@ packages:
       - graphql
     dev: false
 
-  /@graphql-ez/plugin-schema/0.7.3_475553734ef4122f55fd1ee8763b5a14:
-    resolution: {integrity: sha512-40qamfjyQ0qIuAmc3SlE5VRApd+CG0CBPPe91bnKJPrdgqAcCeiAdqEtiz3DnG3QSJhWZS+HdgCMux1/+bwqTQ==}
+  /@graphql-ez/plugin-schema/0.8.0_475553734ef4122f55fd1ee8763b5a14:
+    resolution: {integrity: sha512-VdjW5P2KIyDM46L0Zq4kjYMy8Sx1C3BKWCsqRcI487M9ufAiPt/4kO+wz851dvbrEQaKvUXwEc8oc7QoeSdNiw==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       graphql: '*'
-      graphql-ez: ^0.13.0
+      graphql-ez: ^0.13.2
     dependencies:
       '@graphql-ez/utils': 0.1.2_83b9f9d1d635f16b165e318f6c235826
       '@graphql-tools/schema': 8.2.0_graphql@15.6.1
-      '@graphql-tools/utils': 8.2.2_graphql@15.6.1
+      '@graphql-tools/utils': 8.3.0_graphql@15.6.1
       graphql: 15.6.1
       graphql-ez: 0.13.2_83b9f9d1d635f16b165e318f6c235826
     transitivePeerDependencies:
@@ -961,15 +961,6 @@ packages:
       graphql: 15.6.1
       tslib: 2.3.1
       value-or-promise: 1.0.10
-    dev: false
-
-  /@graphql-tools/utils/8.2.2_graphql@15.6.1:
-    resolution: {integrity: sha512-29FFY5U4lpXuBiW9dRvuWnBVwGhWbGLa2leZcAMU/Pz47Cr/QLZGVgpLBV9rt+Gbs7wyIJM7t7EuksPs0RDm3g==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      graphql: 15.6.1
-      tslib: 2.3.1
     dev: false
 
   /@graphql-tools/utils/8.3.0_graphql@15.6.1:
