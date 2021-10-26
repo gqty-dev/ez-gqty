@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.7.10",
-    "@types/react": "^17.0.32",
+    "@types/react": "^17.0.33",
     "concurrently": "^6.3.0",
     "open-cli": "^7.0.1",
     "typescript": "^4.4.4",
