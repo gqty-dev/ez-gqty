@@ -7,7 +7,7 @@ specifiers:
   '@graphql-ez/nextjs': ^0.10.0
   '@graphql-ez/plugin-codegen': ^0.7.5
   '@graphql-ez/plugin-graphiql': ^0.10.3
-  '@graphql-ez/plugin-schema': ^0.8.0
+  '@graphql-ez/plugin-schema': ^0.8.1
   '@types/node': ^16.11.6
   '@types/react': ^17.0.33
   concurrently: ^6.3.0
@@ -28,7 +28,7 @@ dependencies:
   '@graphql-ez/nextjs': 0.10.0_129fe3841a05aa97a32643ce6222f7e5
   '@graphql-ez/plugin-codegen': 0.7.5_2a1088d611aed937e6384a686dbea8d4
   '@graphql-ez/plugin-graphiql': 0.10.3_2a1088d611aed937e6384a686dbea8d4
-  '@graphql-ez/plugin-schema': 0.8.0_2a1088d611aed937e6384a686dbea8d4
+  '@graphql-ez/plugin-schema': 0.8.1_2a1088d611aed937e6384a686dbea8d4
   gqty: 2.0.3_graphql@16.0.0
   graphql: 16.0.0
   graphql-ez: 0.13.3_6641131295c84cc5f7d2d1f07c3483ce
@@ -831,16 +831,16 @@ packages:
       - graphql
     dev: false
 
-  /@graphql-ez/plugin-schema/0.8.0_2a1088d611aed937e6384a686dbea8d4:
-    resolution: {integrity: sha512-VdjW5P2KIyDM46L0Zq4kjYMy8Sx1C3BKWCsqRcI487M9ufAiPt/4kO+wz851dvbrEQaKvUXwEc8oc7QoeSdNiw==}
+  /@graphql-ez/plugin-schema/0.8.1_2a1088d611aed937e6384a686dbea8d4:
+    resolution: {integrity: sha512-cQxsoMq5dIxEmgnraMHCTbqpbjBX3QvqpSCi9cIH2kJTOmQuUJq4zyXlPbJEhGbsc+drm6O4udi9ucs12Ay0nQ==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       graphql: '*'
       graphql-ez: ^0.13.2
     dependencies:
       '@graphql-ez/utils': 0.1.2_6641131295c84cc5f7d2d1f07c3483ce
-      '@graphql-tools/schema': 8.2.0_graphql@16.0.0
-      '@graphql-tools/utils': 8.3.0_graphql@16.0.0
+      '@graphql-tools/schema': 8.3.1_graphql@16.0.0
+      '@graphql-tools/utils': 8.5.1_graphql@16.0.0
       graphql: 16.0.0
       graphql-ez: 0.13.3_6641131295c84cc5f7d2d1f07c3483ce
     transitivePeerDependencies:
@@ -919,16 +919,6 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /@graphql-tools/merge/8.1.0_graphql@16.0.0:
-    resolution: {integrity: sha512-Lza419UHgnn0w42wLpviHYmg/k42bdxTsguAaUwfrgMbJ99nyx8/1Owu1ij6k1bc5RN0YynS5N/rLGw7skw8vQ==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-tools/utils': 8.5.1_graphql@16.0.0
-      graphql: 16.0.0
-      tslib: 2.3.1
-    dev: false
-
   /@graphql-tools/merge/8.2.1_graphql@16.0.0:
     resolution: {integrity: sha512-Q240kcUszhXiAYudjuJgNuLgy9CryDP3wp83NOZQezfA6h3ByYKU7xI6DiKrdjyVaGpYN3ppUmdj0uf5GaXzMA==}
     peerDependencies:
@@ -961,18 +951,6 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-tools/schema/8.2.0_graphql@16.0.0:
-    resolution: {integrity: sha512-ufmI5mJQa8NJczzfkh0pUttKvspqDcT5LLakA3jUmOrrE4d4NVj6onZlazdTzF5sAepSNqanFnwhrxZpCAJMKg==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-tools/merge': 8.1.0_graphql@16.0.0
-      '@graphql-tools/utils': 8.5.1_graphql@16.0.0
-      graphql: 16.0.0
-      tslib: 2.3.1
-      value-or-promise: 1.0.10
-    dev: false
-
   /@graphql-tools/schema/8.3.1_graphql@16.0.0:
     resolution: {integrity: sha512-3R0AJFe715p4GwF067G5i0KCr/XIdvSfDLvTLEiTDQ8V/hwbOHEKHKWlEBHGRQwkG5lwFQlW1aOn7VnlPERnWQ==}
     peerDependencies:
@@ -983,15 +961,6 @@ packages:
       graphql: 16.0.0
       tslib: 2.3.1
       value-or-promise: 1.0.11
-    dev: false
-
-  /@graphql-tools/utils/8.3.0_graphql@16.0.0:
-    resolution: {integrity: sha512-ksE0RxS0AFllo6KIJjvQsRgcUAzoyZUgUrDbCngv4SaQwyX9YxTfddTLN4uQmbiZB9h25fPp/Xgeyaa3ARCzgg==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      graphql: 16.0.0
-      tslib: 2.3.1
     dev: false
 
   /@graphql-tools/utils/8.5.1_graphql@16.0.0:
@@ -4035,11 +4004,6 @@ packages:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
     dev: true
-
-  /value-or-promise/1.0.10:
-    resolution: {integrity: sha512-1OwTzvcfXkAfabk60UVr5NdjtjJ0Fg0T5+B1bhxtrOEwSH2fe8y4DnLgoksfCyd8yZCOQQHB0qLMQnwgCjbXLQ==}
-    engines: {node: '>=12'}
-    dev: false
 
   /value-or-promise/1.0.11:
     resolution: {integrity: sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==}
