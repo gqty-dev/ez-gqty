@@ -1,4 +1,4 @@
-import { inspectWriteGenerate } from "@gqty/cli";
+import { useGenerateGQty } from "@gqty/cli/envelop";
 import { CreateApp, gql } from "@graphql-ez/nextjs";
 import { ezCodegen } from "@graphql-ez/plugin-codegen";
 import { ezGraphiQLIDE } from "@graphql-ez/plugin-graphiql";
@@ -31,10 +31,9 @@ const { buildApp } = CreateApp({
       }),
     ],
   },
+  envelop: {
+    plugins: [useGenerateGQty()],
+  },
 });
 
 export default buildApp().apiHandler;
-
-inspectWriteGenerate({
-  endpoint: "http://localhost:3000/api/graphql",
-}).catch(console.error);
