@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@gqty/cli': ^2.2.0
+  '@gqty/cli': ^2.3.0
   '@gqty/logger': ^2.0.1
   '@gqty/react': ^2.0.1
   '@graphql-ez/nextjs': ^0.10.0
@@ -22,7 +22,7 @@ specifiers:
   wait-on: ^6.0.0
 
 dependencies:
-  '@gqty/cli': 2.2.0_graphql@16.0.1
+  '@gqty/cli': 2.3.0_graphql@16.0.1
   '@gqty/logger': 2.0.1_gqty@2.0.4
   '@gqty/react': 2.0.1_271cc884e477e7861a8a9c9b481d078b
   '@graphql-ez/nextjs': 0.10.0_82ade5ada6745318c3822dcfd9b8e6ab
@@ -565,7 +565,7 @@ packages:
     resolution: {integrity: sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      regenerator-runtime: 0.13.4
+      regenerator-runtime: 0.13.9
     dev: false
 
   /@babel/runtime/7.16.0:
@@ -634,8 +634,8 @@ packages:
       graphql: 16.0.1
     dev: false
 
-  /@gqty/cli/2.2.0_graphql@16.0.1:
-    resolution: {integrity: sha512-akBNg1tAjEgPsRaoY3ZWRSpf7T7h58d45nrzETXq007dRfJxNejpaXXGdBqB5ZrrXoRpankb6wrJT4EdILEiwA==}
+  /@gqty/cli/2.3.0_graphql@16.0.1:
+    resolution: {integrity: sha512-gAB8C9Xn4DPbwAIBOIBu3/BOFiAQU6JZAt0cky8tvkCpBYi7vUu6kCTPPOpNu5mmv/Y3BoCbi3tRfESNu4CMDg==}
     engines: {node: ^12.20.0 || >=14.13.0}
     hasBin: true
     peerDependencies:
@@ -649,7 +649,7 @@ packages:
       commander: 8.3.0
       cosmiconfig: 7.0.1
       cross-fetch: 3.1.4
-      gqty: 2.0.4_graphql@16.0.1
+      gqty: 2.1.0_graphql@16.0.1
       graphql: 16.0.1
       lodash: 4.17.21
       mkdirp: 1.0.4
@@ -2282,6 +2282,16 @@ packages:
 
   /gqty/2.0.4_graphql@16.0.1:
     resolution: {integrity: sha512-VQ3M0VYGGZmIEyAcDcch4s38SeX3vcFo03phlTbCh7/KXa/EUn0SPSSvd7tVEUTOVgsim8NUqPmRKnF68BXNGA==}
+    engines: {node: ^12.20.0 || >=14.13.0}
+    peerDependencies:
+      graphql: '*'
+    dependencies:
+      graphql: 16.0.1
+      lodash: 4.17.21
+    dev: false
+
+  /gqty/2.1.0_graphql@16.0.1:
+    resolution: {integrity: sha512-ncUvTivsa6hWH9Ro1pKq9GneRqbtL37cxcFtvOrxeHC2JXVQC+f7UHdTdDpkSETSy5U7X4+jGBxXDXTxsTYi9w==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       graphql: '*'
