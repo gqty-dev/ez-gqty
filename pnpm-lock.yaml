@@ -18,7 +18,7 @@ specifiers:
   open-cli: ^7.0.1
   react: ^17.0.2
   react-dom: ^17.0.2
-  typescript: ^4.5.2
+  typescript: ^4.5.3
   wait-on: ^6.0.0
 
 dependencies:
@@ -41,7 +41,7 @@ devDependencies:
   '@types/react': 17.0.37
   concurrently: 6.4.0
   open-cli: 7.0.1
-  typescript: 4.5.2
+  typescript: 4.5.3
   wait-on: 6.0.0
 
 packages:
@@ -4026,8 +4026,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.5.2:
-    resolution: {integrity: sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==}
+  /typescript/4.5.3:
+    resolution: {integrity: sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
