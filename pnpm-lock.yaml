@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@gqty/cli': ^2.3.1
-  '@gqty/logger': ^2.0.1
+  '@gqty/logger': ^2.0.2
   '@gqty/react': ^2.1.0
   '@graphql-ez/nextjs': ^0.10.0
   '@graphql-ez/plugin-codegen': ^0.7.6
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@gqty/cli': 2.3.1_graphql@16.1.0
-  '@gqty/logger': 2.0.1_gqty@2.1.0
+  '@gqty/logger': 2.0.2_gqty@2.1.0
   '@gqty/react': 2.1.0_e6647dff0b4aff604f99e5e93cee0e6f
   '@graphql-ez/nextjs': 0.10.0_23ca63209270d4850144c6e09c49b95e
   '@graphql-ez/plugin-codegen': 0.7.6_adce139fb8e993f6dd5a6d4a6b7dd4f2
@@ -658,15 +658,14 @@ packages:
       - supports-color
     dev: false
 
-  /@gqty/logger/2.0.1_gqty@2.1.0:
-    resolution: {integrity: sha512-o/hhrqOEuiiT5qFnXf1GO+WBOMp55e+l3AilynTFoSsjLInYMPvwERsObZ/7X2YJObGTkVb12ECdcZ5iRsQLgg==}
+  /@gqty/logger/2.0.2_gqty@2.1.0:
+    resolution: {integrity: sha512-M4RC1XVN4O/DLfoCeDdqnk2lqqC/188WYgNYlNPQEVDb/TnI8W26L5PezTW3if15TXDHWopeLNuGdgrWoX0Dyw==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       gqty: ^2.0.2
     dependencies:
       gqty: 2.1.0_graphql@16.1.0
-      prettier: 2.4.1
-      serialize-error: 8.1.0
+      prettier: 2.5.1
     dev: false
 
   /@gqty/react/2.1.0_e6647dff0b4aff604f99e5e93cee0e6f:
@@ -3370,6 +3369,12 @@ packages:
     hasBin: true
     dev: false
 
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
+
   /process/0.11.10:
     resolution: {integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=}
     engines: {node: '>= 0.6.0'}
@@ -3663,13 +3668,6 @@ packages:
       no-case: 3.0.4
       tslib: 2.3.1
       upper-case-first: 2.0.2
-    dev: false
-
-  /serialize-error/8.1.0:
-    resolution: {integrity: sha512-3NnuWfM6vBYoy5gZFvHiYsVbafvI9vZv/+jlIigFn4oP4zjNPK3LhcY0xSCgeb1a5L8jO71Mit9LlNoi2UfDDQ==}
-    engines: {node: '>=10'}
-    dependencies:
-      type-fest: 0.20.2
     dev: false
 
   /set-blocking/2.0.0:
@@ -4010,11 +4008,6 @@ packages:
     resolution: {integrity: sha512-eaBzG6MxNzEn9kiwvtre90cXaNLkmadMWa1zQMs3XORCXNbsH/OewwbxC5ia9dCxIxnTAsSxXJaa/p5y8DlvJg==}
     engines: {node: '>=10'}
     dev: true
-
-  /type-fest/0.20.2:
-    resolution: {integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==}
-    engines: {node: '>=10'}
-    dev: false
 
   /type-fest/0.7.1:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
