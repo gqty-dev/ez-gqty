@@ -10,7 +10,7 @@ specifiers:
   '@graphql-ez/plugin-schema': ^0.8.1
   '@types/node': ^16.11.14
   '@types/react': ^17.0.37
-  concurrently: ^6.4.0
+  concurrently: ^6.5.0
   gqty: ^2.1.0
   graphql: ^16.1.0
   graphql-ez: ^0.13.6
@@ -39,7 +39,7 @@ dependencies:
 devDependencies:
   '@types/node': 16.11.14
   '@types/react': 17.0.37
-  concurrently: 6.4.0
+  concurrently: 6.5.0
   open-cli: 7.0.1
   typescript: 4.5.4
   wait-on: 6.0.0
@@ -1721,8 +1721,8 @@ packages:
   /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
-  /concurrently/6.4.0:
-    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
+  /concurrently/6.5.0:
+    resolution: {integrity: sha512-BjC0KYxXtO6EiWa46gfWYzcLULPBCb+5+VZFtzCemR/co0QSHU4mysEvmT6cnedPpQ9dtJzb+2G694o3V7TgLg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
