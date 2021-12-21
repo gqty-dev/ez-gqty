@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@gqty/cli': ^3.0.0
+  '@gqty/cli': ^3.0.1
   '@gqty/logger': ^2.0.2
   '@gqty/react': ^2.1.0
   '@graphql-ez/nextjs': ^0.10.0
@@ -22,7 +22,7 @@ specifiers:
   wait-on: ^6.0.0
 
 dependencies:
-  '@gqty/cli': 3.0.0_graphql@16.2.0
+  '@gqty/cli': 3.0.1_graphql@16.2.0
   '@gqty/logger': 2.0.2_gqty@2.1.0
   '@gqty/react': 2.1.0_84ae2a54bc51e43143f33fdca42e855d
   '@graphql-ez/nextjs': 0.10.0_b3490346377eab87ecd2b8750b6126bc
@@ -634,8 +634,8 @@ packages:
       graphql: 16.2.0
     dev: false
 
-  /@gqty/cli/3.0.0_graphql@16.2.0:
-    resolution: {integrity: sha512-gB+0cg6yGZZmPfDNJg852DEOvMZ4sQIrvyqjJXAV3QmC10qYoz84QrUOvpBr9lGxd+a2WWVag8WYutNMaCOtJg==}
+  /@gqty/cli/3.0.1_graphql@16.2.0:
+    resolution: {integrity: sha512-/Y4kO9O2DwMkUMrC0hDoiwVsMILEqXyP3UuBWIhCgpPOJzDGwMPMGXmzu/+CV35anKgRjWV+dBE39O5JthYkiA==}
     engines: {node: ^12.20.0 || >=14.13.0}
     hasBin: true
     peerDependencies:
