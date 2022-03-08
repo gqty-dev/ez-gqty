@@ -11,7 +11,7 @@ specifiers:
   '@types/node': ^16.11.26
   '@types/react': ^17.0.39
   concurrently: ^7.0.0
-  gqty: ^2.1.0
+  gqty: ^2.2.0
   graphql: ^16.3.0
   graphql-ez: ^0.13.8
   next: ^12.0.9
@@ -23,13 +23,13 @@ specifiers:
 
 dependencies:
   '@gqty/cli': 3.2.0_graphql@16.3.0
-  '@gqty/logger': 2.0.2_gqty@2.1.0
-  '@gqty/react': 2.1.0_b68a728bccbd81db87eb98891baa6914
+  '@gqty/logger': 2.0.2_gqty@2.2.0
+  '@gqty/react': 2.1.0_ca1e113c8671b110fc8932418fa49b88
   '@graphql-ez/nextjs': 0.10.1_d8cb10dec66e4cd79fec602236d2ab13
   '@graphql-ez/plugin-codegen': 0.7.8_9825b5537a35ef5b8825b32c829bd2a8
   '@graphql-ez/plugin-graphiql': 0.11.4_9825b5537a35ef5b8825b32c829bd2a8
   '@graphql-ez/plugin-schema': 0.8.3_9825b5537a35ef5b8825b32c829bd2a8
-  gqty: 2.1.0_graphql@16.3.0
+  gqty: 2.2.0_graphql@16.3.0
   graphql: 16.3.0
   graphql-ez: 0.13.8_3a981738fd016bf2c75e750b2e82049a
   next: 12.0.9_react-dom@17.0.2+react@17.0.2
@@ -619,17 +619,17 @@ packages:
       undici: 4.15.1
     dev: false
 
-  /@gqty/logger/2.0.2_gqty@2.1.0:
+  /@gqty/logger/2.0.2_gqty@2.2.0:
     resolution: {integrity: sha512-M4RC1XVN4O/DLfoCeDdqnk2lqqC/188WYgNYlNPQEVDb/TnI8W26L5PezTW3if15TXDHWopeLNuGdgrWoX0Dyw==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       gqty: ^2.0.2
     dependencies:
-      gqty: 2.1.0_graphql@16.3.0
+      gqty: 2.2.0_graphql@16.3.0
       prettier: 2.5.1
     dev: false
 
-  /@gqty/react/2.1.0_b68a728bccbd81db87eb98891baa6914:
+  /@gqty/react/2.1.0_ca1e113c8671b110fc8932418fa49b88:
     resolution: {integrity: sha512-aTQEE2voYBqvgLhOs1VgBczL/EUVnbYHFzY1HKCNONH+MyLW0SClGXUcAPcHYEAgkfUfJlbM8egPd5cY1aJZDg==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
@@ -637,7 +637,7 @@ packages:
       graphql: '*'
       react: '>=16.8'
     dependencies:
-      gqty: 2.1.0_graphql@16.3.0
+      gqty: 2.2.0_graphql@16.3.0
       graphql: 16.3.0
       react: 17.0.2
       react-ssr-prepass: 1.4.0_react@17.0.2
@@ -1767,16 +1767,6 @@ packages:
       ignore: 5.1.9
       merge2: 1.4.1
       slash: 3.0.0
-
-  /gqty/2.1.0_graphql@16.3.0:
-    resolution: {integrity: sha512-ncUvTivsa6hWH9Ro1pKq9GneRqbtL37cxcFtvOrxeHC2JXVQC+f7UHdTdDpkSETSy5U7X4+jGBxXDXTxsTYi9w==}
-    engines: {node: ^12.20.0 || >=14.13.0}
-    peerDependencies:
-      graphql: '*'
-    dependencies:
-      graphql: 16.3.0
-      lodash: 4.17.21
-    dev: false
 
   /gqty/2.2.0_graphql@16.3.0:
     resolution: {integrity: sha512-hxYu6ze4FduRqNQl/wCQjVEUqWLLsC26/56nVOoAIRlcQEYKOvkn67c7/URbAprNlk0rrJ/Wh3M/YCft5hEaZA==}
