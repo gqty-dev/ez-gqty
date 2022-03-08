@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@gqty/cli': ^3.1.0
+  '@gqty/cli': ^3.2.0
   '@gqty/logger': ^2.0.2
   '@gqty/react': ^2.1.0
   '@graphql-ez/nextjs': ^0.10.1
@@ -22,7 +22,7 @@ specifiers:
   wait-on: ^6.0.1
 
 dependencies:
-  '@gqty/cli': 3.1.0_graphql@16.3.0
+  '@gqty/cli': 3.2.0_graphql@16.3.0
   '@gqty/logger': 2.0.2_gqty@2.1.0
   '@gqty/react': 2.1.0_b68a728bccbd81db87eb98891baa6914
   '@graphql-ez/nextjs': 0.10.1_d8cb10dec66e4cd79fec602236d2ab13
@@ -604,16 +604,19 @@ packages:
       graphql: 16.3.0
     dev: false
 
-  /@gqty/cli/3.1.0_graphql@16.3.0:
-    resolution: {integrity: sha512-kthyQP+mjUTlnhVT/BYY4RpApXrGas2yDRwSqm1nNnswW5GGPxeDDs2+/ZqUP4QjiuxHe4RKh9dHuKME7QeaTQ==}
+  /@gqty/cli/3.2.0_graphql@16.3.0:
+    resolution: {integrity: sha512-fHf2YxJXxGqOGEyZpb0bVRPAFbETv009X/R3Jc9T36PzNOdBqtGeckvn1B1dJUW6j8v5VW62vfwhWO+IOdHh5g==}
     engines: {node: ^12.20.0 || >=14.13.0}
     hasBin: true
     peerDependencies:
       graphql: '*'
+    peerDependenciesMeta:
+      graphql:
+        optional: true
     dependencies:
-      gqty: 2.1.0_graphql@16.3.0
+      gqty: 2.2.0_graphql@16.3.0
       graphql: 16.3.0
-      undici: 4.12.1
+      undici: 4.15.1
     dev: false
 
   /@gqty/logger/2.0.2_gqty@2.1.0:
@@ -1775,6 +1778,19 @@ packages:
       lodash: 4.17.21
     dev: false
 
+  /gqty/2.2.0_graphql@16.3.0:
+    resolution: {integrity: sha512-hxYu6ze4FduRqNQl/wCQjVEUqWLLsC26/56nVOoAIRlcQEYKOvkn67c7/URbAprNlk0rrJ/Wh3M/YCft5hEaZA==}
+    engines: {node: ^12.20.0 || >=14.13.0}
+    peerDependencies:
+      graphql: '*'
+    peerDependenciesMeta:
+      graphql:
+        optional: true
+    dependencies:
+      graphql: 16.3.0
+      lodash: 4.17.21
+    dev: false
+
   /graceful-fs/4.2.8:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: true
@@ -2851,8 +2867,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /undici/4.12.1:
-    resolution: {integrity: sha512-MSfap7YiQJqTPP12C11PFRs9raZuVicDbwsZHTjB0a8+SsCqt7KdUis54f373yf7ZFhJzAkGJLaKm0202OIxHg==}
+  /undici/4.15.1:
+    resolution: {integrity: sha512-h8LJybhMKD09IyQZoQadNtIR/GmugVhTOVREunJrpV6RStriKBFdSVoFzEzTihwXi/27DIBO+Z0OGF+Mzfi0lA==}
     engines: {node: '>=12.18'}
     dev: false
 
