@@ -16,15 +16,15 @@ specifiers:
   graphql-ez: ^0.14.1
   next: ^12.1.2
   open-cli: ^7.0.1
-  react: ^17.0.2
-  react-dom: ^17.0.2
+  react: ^18.0.0
+  react-dom: ^18.0.0
   typescript: ^4.6.3
   wait-on: ^6.0.1
 
 dependencies:
   '@gqty/cli': 3.2.0_graphql@16.3.0
   '@gqty/logger': 2.0.2_gqty@2.2.0
-  '@gqty/react': 2.1.0_ca1e113c8671b110fc8932418fa49b88
+  '@gqty/react': 2.1.0_07c2abacba80b457cf9f0537b63382c0
   '@graphql-ez/nextjs': 0.10.1_0cd9b6adff119e43a6d0f49faa12517f
   '@graphql-ez/plugin-codegen': 0.7.9_ab1c17076cb8b56b34b8d000b91123ba
   '@graphql-ez/plugin-graphiql': 0.11.4_ab1c17076cb8b56b34b8d000b91123ba
@@ -32,9 +32,9 @@ dependencies:
   gqty: 2.2.0_graphql@16.3.0
   graphql: 16.3.0
   graphql-ez: 0.14.1_3a981738fd016bf2c75e750b2e82049a
-  next: 12.1.2_react-dom@17.0.2+react@17.0.2
-  react: 17.0.2
-  react-dom: 17.0.2_react@17.0.2
+  next: 12.1.2_react-dom@18.0.0+react@18.0.0
+  react: 18.0.0
+  react-dom: 18.0.0_react@18.0.0
 
 devDependencies:
   '@types/node': 16.11.26
@@ -629,7 +629,7 @@ packages:
       prettier: 2.5.1
     dev: false
 
-  /@gqty/react/2.1.0_ca1e113c8671b110fc8932418fa49b88:
+  /@gqty/react/2.1.0_07c2abacba80b457cf9f0537b63382c0:
     resolution: {integrity: sha512-aTQEE2voYBqvgLhOs1VgBczL/EUVnbYHFzY1HKCNONH+MyLW0SClGXUcAPcHYEAgkfUfJlbM8egPd5cY1aJZDg==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
@@ -639,8 +639,8 @@ packages:
     dependencies:
       gqty: 2.2.0_graphql@16.3.0
       graphql: 16.3.0
-      react: 17.0.2
-      react-ssr-prepass: 1.4.0_react@17.0.2
+      react: 18.0.0
+      react-ssr-prepass: 1.4.0_react@18.0.0
     dev: false
 
   /@graphql-codegen/core/2.5.1_graphql@16.3.0:
@@ -780,7 +780,7 @@ packages:
       cors: 2.8.5
       graphql: 16.3.0
       graphql-ez: 0.14.1_3a981738fd016bf2c75e750b2e82049a
-      next: 12.1.2_react-dom@17.0.2+react@17.0.2
+      next: 12.1.2_react-dom@18.0.0+react@18.0.0
     dev: false
 
   /@graphql-ez/plugin-codegen/0.7.9_ab1c17076cb8b56b34b8d000b91123ba:
@@ -2106,7 +2106,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next/12.1.2_react-dom@17.0.2+react@17.0.2:
+  /next/12.1.2_react-dom@18.0.0+react@18.0.0:
     resolution: {integrity: sha512-JHPCsnFTBO0Z4SQxSYc611UA1WA+r/3y3Neg66AH5/gSO/oksfRnFw/zGX/FZ9+oOUHS9y3wJFawNpVYR2gJSQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -2127,10 +2127,10 @@ packages:
       '@next/env': 12.1.2
       caniuse-lite: 1.0.30001299
       postcss: 8.4.5
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-jsx: 5.0.1_react@17.0.2
-      use-subscription: 1.5.1_react@17.0.2
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      styled-jsx: 5.0.1_react@18.0.0
+      use-subscription: 1.5.1_react@18.0.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.2
       '@next/swc-android-arm64': 12.1.2
@@ -2387,31 +2387,29 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.0.0_react@18.0.0:
+    resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.0.0
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.0.0
+      scheduler: 0.21.0
     dev: false
 
-  /react-ssr-prepass/1.4.0_react@17.0.2:
+  /react-ssr-prepass/1.4.0_react@18.0.0:
     resolution: {integrity: sha512-0SzdmiQUtHvhxCabHg9BI/pkJfijGkQ0jQL6fC4YFy7idaDOuaiQLsajIkkNxffFXtJFHIWFITlve2WB88e0Jw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
     dependencies:
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.0.0:
+    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /read-pkg-up/8.0.0:
@@ -2551,11 +2549,10 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.21.0:
+    resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /semver/6.3.0:
@@ -2679,7 +2676,7 @@ packages:
       peek-readable: 4.0.1
     dev: true
 
-  /styled-jsx/5.0.1_react@17.0.2:
+  /styled-jsx/5.0.1_react@18.0.0:
     resolution: {integrity: sha512-+PIZ/6Uk40mphiQJJI1202b+/dYeTVd9ZnMPR80pgiWbjIwvN2zIp4r9et0BgqBuShh48I0gttPlAXA7WVvBxw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -2692,7 +2689,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /supports-color/5.5.0:
@@ -2839,13 +2836,13 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /use-subscription/1.5.1_react@17.0.2:
+  /use-subscription/1.5.1_react@18.0.0:
     resolution: {integrity: sha512-Xv2a1P/yReAjAbhylMfFplFKj9GssgTwN7RlcTxBujFQcloStWNDQdc4g4NRWH9xS4i/FDk04vQBptAXoF3VcA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /util-deprecate/1.0.2:
