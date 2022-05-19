@@ -7,7 +7,7 @@ specifiers:
   '@graphql-ez/nextjs': ^0.10.2
   '@graphql-ez/plugin-codegen': ^0.7.10
   '@graphql-ez/plugin-graphiql': ^0.11.5
-  '@graphql-ez/plugin-schema': ^0.8.4
+  '@graphql-ez/plugin-schema': ^0.8.5
   '@types/node': ^16.11.36
   '@types/react': ^18.0.9
   concurrently: ^7.2.0
@@ -28,7 +28,7 @@ dependencies:
   '@graphql-ez/nextjs': 0.10.2_feb4c05a2baa57e2f875a63342816b4b
   '@graphql-ez/plugin-codegen': 0.7.10_4272868ebd04c973dd0ebf025a07d113
   '@graphql-ez/plugin-graphiql': 0.11.5_4272868ebd04c973dd0ebf025a07d113
-  '@graphql-ez/plugin-schema': 0.8.4_4272868ebd04c973dd0ebf025a07d113
+  '@graphql-ez/plugin-schema': 0.8.5_4272868ebd04c973dd0ebf025a07d113
   gqty: 2.2.0_graphql@16.5.0
   graphql: 16.5.0
   graphql-ez: 0.14.1_f0f5d9ff59a23e67969294169991be3c
@@ -651,7 +651,7 @@ packages:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       '@graphql-codegen/plugin-helpers': 2.4.2_graphql@16.5.0
-      '@graphql-tools/schema': 8.3.3_graphql@16.5.0
+      '@graphql-tools/schema': 8.3.11_graphql@16.5.0
       '@graphql-tools/utils': 8.6.10_graphql@16.5.0
       graphql: 16.5.0
       tslib: 2.3.1
@@ -828,19 +828,19 @@ packages:
       - graphql
     dev: false
 
-  /@graphql-ez/plugin-schema/0.8.4_4272868ebd04c973dd0ebf025a07d113:
-    resolution: {integrity: sha512-1z6n9lterRHI1Q7PxbiAlUqWEbdqHVhzLLVc6kmMwyy95M347E6Sq53hb4siSUKabAGLJIoTPphPHCtXcqmHaA==}
-    engines: {node: ^12.20.0 || >=14.13.0}
+  /@graphql-ez/plugin-schema/0.8.5_4272868ebd04c973dd0ebf025a07d113:
+    resolution: {integrity: sha512-SERD/JF9asI7VuYmYJfcZLHS0o253aIdoVnSi94aSW5+KLLvTOa0syKyv2TOp7j66VpOzSVIRHmqYoXby64qLw==}
+    engines: {node: '>=14.13.1'}
     peerDependencies:
       graphql: '*'
-      graphql-ez: ^0.14.1
+      graphql-ez: ^0.15.0
     peerDependenciesMeta:
       graphql:
         optional: true
     dependencies:
       '@graphql-ez/utils': 0.1.4_f0f5d9ff59a23e67969294169991be3c
-      '@graphql-tools/schema': 8.3.3_graphql@16.5.0
-      '@graphql-tools/utils': 8.6.3_graphql@16.5.0
+      '@graphql-tools/schema': 8.3.11_graphql@16.5.0
+      '@graphql-tools/utils': 8.6.10_graphql@16.5.0
       graphql: 16.5.0
       graphql-ez: 0.14.1_f0f5d9ff59a23e67969294169991be3c
     transitivePeerDependencies:
@@ -903,16 +903,6 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@graphql-tools/merge/8.2.4_graphql@16.5.0:
-    resolution: {integrity: sha512-hiNRTsS948F+BB4Q7CZXLaGFOIHQzmimVq3EEI/+PQZsPb7kYDzg0Ow0GyV4conDdEiooLqHf7I1dWzTYwvs0A==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-tools/utils': 8.6.3_graphql@16.5.0
-      graphql: 16.5.0
-      tslib: 2.3.1
-    dev: false
-
   /@graphql-tools/optimize/1.1.1_graphql@16.5.0:
     resolution: {integrity: sha512-y0TEfPyGmJaQjnsTRs/UP7/ZHaB3i68VAsXW4H2doUFKY6rIOUz+ruME/uWsfy/VeTWBNqGX8/m/X7YFEi5OJQ==}
     peerDependencies:
@@ -947,18 +937,6 @@ packages:
       value-or-promise: 1.0.11
     dev: false
 
-  /@graphql-tools/schema/8.3.3_graphql@16.5.0:
-    resolution: {integrity: sha512-OrRLU9/7UmkDemeyNUy62uH+FofgV3bpVVZJprc9bhe3gZsY7kQNIdY7H1unINlepjLvGOgk7u7iLo2+EhjyWw==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-tools/merge': 8.2.4_graphql@16.5.0
-      '@graphql-tools/utils': 8.6.3_graphql@16.5.0
-      graphql: 16.5.0
-      tslib: 2.3.1
-      value-or-promise: 1.0.11
-    dev: false
-
   /@graphql-tools/utils/8.6.10_graphql@16.5.0:
     resolution: {integrity: sha512-bJH9qwuyM3BP0PTU6/lvBDkk6jdEIOn+dbyk4pHMVNnvbJ1gZQwo62To8SHxxaUTus8OMhhVPSh9ApWXREURcg==}
     peerDependencies:
@@ -966,15 +944,6 @@ packages:
     dependencies:
       graphql: 16.5.0
       tslib: 2.4.0
-    dev: false
-
-  /@graphql-tools/utils/8.6.3_graphql@16.5.0:
-    resolution: {integrity: sha512-CNyP7Uu7dlVMQ32IpHWOxz4yic9BYXXVkDhG0UdTKSszvzHdgMilemE9MpUrGzzBPsTe3aYTtNGyPUkyh9yTXA==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      graphql: 16.5.0
-      tslib: 2.3.1
     dev: false
 
   /@hapi/hoek/9.2.1:
