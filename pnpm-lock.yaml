@@ -10,7 +10,7 @@ specifiers:
   '@graphql-ez/plugin-schema': ^0.8.5
   '@types/node': ^16.11.36
   '@types/react': ^18.0.9
-  concurrently: ^7.2.0
+  concurrently: ^7.2.1
   gqty: ^2.2.0
   graphql: ^16.5.0
   graphql-ez: ^0.15.0
@@ -39,7 +39,7 @@ dependencies:
 devDependencies:
   '@types/node': 16.11.36
   '@types/react': 18.0.9
-  concurrently: 7.2.0
+  concurrently: 7.2.1
   open-cli: 7.0.1
   typescript: 4.6.4
   wait-on: 6.0.1
@@ -1131,7 +1131,6 @@ packages:
 
   /@types/node/16.11.36:
     resolution: {integrity: sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==}
-    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -1422,8 +1421,8 @@ packages:
   /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
-  /concurrently/7.2.0:
-    resolution: {integrity: sha512-4KIVY5HopDRhN3ndAgfFOLsMk1PZUPgghlgTMZ5Pb5aTrqYg86RcZaIZC2Cz+qpZ9DsX36WHGjvWnXPqdnblhw==}
+  /concurrently/7.2.1:
+    resolution: {integrity: sha512-7cab/QyqipqghrVr9qZmoWbidu0nHsmxrpNqQ7r/67vfl1DWJElexehQnTH1p+87tDkihaAjM79xTZyBQh7HLw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
