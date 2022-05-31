@@ -23,7 +23,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.36",
+    "@types/node": "^16.11.38",
     "@types/react": "^18.0.10",
     "concurrently": "^7.2.1",
     "open-cli": "^7.0.1",
