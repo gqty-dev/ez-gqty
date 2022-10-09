@@ -6,7 +6,7 @@ specifiers:
   '@gqty/react': ^2.1.0
   '@graphql-ez/nextjs': ^0.10.2
   '@graphql-ez/plugin-codegen': ^0.7.11
-  '@graphql-ez/plugin-graphiql': ^0.11.5
+  '@graphql-ez/plugin-graphiql': ^0.11.6
   '@graphql-ez/plugin-schema': ^0.8.5
   '@types/node': ^16.11.64
   '@types/react': ^18.0.21
@@ -27,7 +27,7 @@ dependencies:
   '@gqty/react': 2.1.0_99d12d88143d3fa10a757ce102c3b75c
   '@graphql-ez/nextjs': 0.10.2_64975f0e00a227d8fdb22cded527ac53
   '@graphql-ez/plugin-codegen': 0.7.11_0c9083cef891026bdbc62f3b37af089f
-  '@graphql-ez/plugin-graphiql': 0.11.5_0c9083cef891026bdbc62f3b37af089f
+  '@graphql-ez/plugin-graphiql': 0.11.6_0c9083cef891026bdbc62f3b37af089f
   '@graphql-ez/plugin-schema': 0.8.5_0c9083cef891026bdbc62f3b37af089f
   gqty: 2.3.0_graphql@16.6.0
   graphql: 16.6.0
@@ -846,11 +846,11 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-ez/plugin-graphiql/0.11.5_0c9083cef891026bdbc62f3b37af089f:
-    resolution: {integrity: sha512-d5dO5DnG6bmLxW+Mpcc/1kUVlampcl7xv8YGnl07B8sJPbsWV8uCWd1kF6vHxtnoMmecUA+nfoJjDelhXfdkkw==}
+  /@graphql-ez/plugin-graphiql/0.11.6_0c9083cef891026bdbc62f3b37af089f:
+    resolution: {integrity: sha512-w0+buGQKkADQRFTZQC6CFyOgqEl4bU2V6TFBN2ktpoOfvem7fZDRhFrVehINUQIbX9HB/0bM6vySjiztS6ZSgQ==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
-      graphql-ez: ^0.15.0
+      graphql-ez: ^0.15.2
     dependencies:
       '@graphql-ez/utils': 0.1.4_04820ea24f277fc41a823596f5ec58d1
       '@pablosz/graphql-helix-graphiql': 4.2.1_04820ea24f277fc41a823596f5ec58d1
