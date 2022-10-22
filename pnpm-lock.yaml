@@ -10,7 +10,7 @@ specifiers:
   '@graphql-ez/plugin-schema': ^0.8.5
   '@types/node': ^16.11.68
   '@types/react': ^18.0.21
-  concurrently: ^7.4.0
+  concurrently: ^7.5.0
   gqty: ^2.3.0
   graphql: ^16.6.0
   graphql-ez: ^0.15.2
@@ -39,7 +39,7 @@ dependencies:
 devDependencies:
   '@types/node': 16.11.68
   '@types/react': 18.0.21
-  concurrently: 7.4.0
+  concurrently: 7.5.0
   open-cli: 7.1.0
   typescript: 4.8.4
   wait-on: 6.0.1
@@ -1496,8 +1496,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: false
 
-  /concurrently/7.4.0:
-    resolution: {integrity: sha512-M6AfrueDt/GEna/Vg9BqQ+93yuvzkSKmoTixnwEJkH0LlcGrRC2eCmjeG1tLLHIYfpYJABokqSGyMcXjm96AFA==}
+  /concurrently/7.5.0:
+    resolution: {integrity: sha512-5E3mwiS+i2JYBzr5BpXkFxOnleZTMsG+WnE/dCG4/P+oiVXrbmrBwJ2ozn4SxwB2EZDrKR568X+puVohxz3/Mg==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
