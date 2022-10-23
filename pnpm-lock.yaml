@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@gqty/cli': ^3.3.0
   '@gqty/logger': ^2.0.2
-  '@gqty/react': ^2.1.0
+  '@gqty/react': ^2.1.1
   '@graphql-ez/nextjs': ^0.10.2
   '@graphql-ez/plugin-codegen': ^0.7.11
   '@graphql-ez/plugin-graphiql': ^0.11.6
@@ -24,7 +24,7 @@ specifiers:
 dependencies:
   '@gqty/cli': 3.3.0_graphql@16.6.0
   '@gqty/logger': 2.0.2_gqty@2.3.0
-  '@gqty/react': 2.1.0_99d12d88143d3fa10a757ce102c3b75c
+  '@gqty/react': 2.1.1_99d12d88143d3fa10a757ce102c3b75c
   '@graphql-ez/nextjs': 0.10.2_78f811fce3427475d9f4feb460741392
   '@graphql-ez/plugin-codegen': 0.7.11_b74984c8f719f25eb89a2f77836b5b12
   '@graphql-ez/plugin-graphiql': 0.11.6_b74984c8f719f25eb89a2f77836b5b12
@@ -661,18 +661,23 @@ packages:
       prettier: 2.5.1
     dev: false
 
-  /@gqty/react/2.1.0_99d12d88143d3fa10a757ce102c3b75c:
-    resolution: {integrity: sha512-aTQEE2voYBqvgLhOs1VgBczL/EUVnbYHFzY1HKCNONH+MyLW0SClGXUcAPcHYEAgkfUfJlbM8egPd5cY1aJZDg==}
+  /@gqty/react/2.1.1_99d12d88143d3fa10a757ce102c3b75c:
+    resolution: {integrity: sha512-WV1dsvPMCCgZZAy2ykfErazNu6D/IjJBjGcncd+34dijDR0nQWOzGzu0f7JxBJuMxhIIOJlZnfmjds6pddA4Sw==}
     engines: {node: ^12.20.0 || >=14.13.0}
     peerDependencies:
       gqty: ^2.0.4
       graphql: '*'
-      react: '>=16.8'
+      react: '>=16.14.0'
+    peerDependenciesMeta:
+      graphql:
+        optional: true
+      react:
+        optional: true
     dependencies:
       gqty: 2.3.0_graphql@16.6.0
       graphql: 16.6.0
       react: 18.2.0
-      react-ssr-prepass: 1.4.0_react@18.2.0
+      react-ssr-prepass: 1.5.0_react@18.2.0
     dev: false
 
   /@gqty/utils/1.0.0:
@@ -2459,10 +2464,10 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-ssr-prepass/1.4.0_react@18.2.0:
-    resolution: {integrity: sha512-0SzdmiQUtHvhxCabHg9BI/pkJfijGkQ0jQL6fC4YFy7idaDOuaiQLsajIkkNxffFXtJFHIWFITlve2WB88e0Jw==}
+  /react-ssr-prepass/1.5.0_react@18.2.0:
+    resolution: {integrity: sha512-yFNHrlVEReVYKsLI5lF05tZoHveA5pGzjFbFJY/3pOqqjGOmMmqx83N4hIjN2n6E1AOa+eQEUxs3CgRnPmT0RQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
     dev: false
