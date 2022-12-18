@@ -4,7 +4,7 @@ specifiers:
   '@gqty/cli': ^3.3.0
   '@gqty/logger': ^2.0.2
   '@gqty/react': ^2.1.1
-  '@graphql-ez/nextjs': ^0.10.2
+  '@graphql-ez/nextjs': ^0.11.0
   '@graphql-ez/plugin-codegen': ^0.7.12
   '@graphql-ez/plugin-graphiql': ^0.11.6
   '@graphql-ez/plugin-schema': ^0.8.6
@@ -25,7 +25,7 @@ dependencies:
   '@gqty/cli': 3.3.0_graphql@16.6.0
   '@gqty/logger': 2.0.2_gqty@2.3.0
   '@gqty/react': 2.1.1_99d12d88143d3fa10a757ce102c3b75c
-  '@graphql-ez/nextjs': 0.10.2_3d672a44a2c419152b008eafbf5290d0
+  '@graphql-ez/nextjs': 0.11.0_3d672a44a2c419152b008eafbf5290d0
   '@graphql-ez/plugin-codegen': 0.7.12_e102ab7a55e7d0aae079d8f15a802584
   '@graphql-ez/plugin-graphiql': 0.11.6_e102ab7a55e7d0aae079d8f15a802584
   '@graphql-ez/plugin-schema': 0.8.6_e102ab7a55e7d0aae079d8f15a802584
@@ -802,21 +802,21 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-ez/nextjs/0.10.2_3d672a44a2c419152b008eafbf5290d0:
-    resolution: {integrity: sha512-+hZ+tvHtW6uYdD7apjFZGJ0t5ASLbccCyKC2zpqYE9FAETBUevsV2TweeUjT/J3BgNSkJC2uQQflKhg2WrtrVg==}
+  /@graphql-ez/nextjs/0.11.0_3d672a44a2c419152b008eafbf5290d0:
+    resolution: {integrity: sha512-oZNeAu8Kbi0QmGpyK17QIjS5Vxzn6smCjZ4qE5+OKmAeJ8iSlTJlZtUn+ALEG0DzEIFg2nPM5xTAMlKO47WdCg==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
       '@types/node': '*'
       graphql: '*'
-      graphql-ez: ^0.15.0
-      next: ^12.1.6
+      graphql-ez: ^0.16.0
+      next: ^12.3.4
     peerDependenciesMeta:
       graphql:
         optional: true
       next:
         optional: true
     dependencies:
-      '@types/cors': 2.8.12
+      '@types/cors': 2.8.13
       '@types/node': 18.11.17
       cors: 2.8.5
       graphql: 16.6.0
@@ -1197,8 +1197,10 @@ packages:
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
     dev: true
 
-  /@types/cors/2.8.12:
-    resolution: {integrity: sha512-vt+kDhq/M2ayberEtJcIN/hxXy1Pk+59g2FV/ZQceeaTyCtCucjL2Q7FXlFjtWn4n15KCr1NE2lNNFhp0lEThw==}
+  /@types/cors/2.8.13:
+    resolution: {integrity: sha512-RG8AStHlUiV5ysZQKq97copd2UmVYw3/pRMLefISZ3S1hK104Cwm7iLQ3fTKx+lsUH2CE8FlLaYeEA2LSeqYUA==}
+    dependencies:
+      '@types/node': 18.11.17
     dev: false
 
   /@types/minimist/1.2.2:
@@ -2289,7 +2291,7 @@ packages:
     dev: false
 
   /object-assign/4.1.1:
-    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -2917,7 +2919,7 @@ packages:
     dev: false
 
   /vary/1.1.2:
-    resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=}
+    resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
     dev: false
 
