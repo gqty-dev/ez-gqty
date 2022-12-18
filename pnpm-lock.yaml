@@ -7,7 +7,7 @@ specifiers:
   '@graphql-ez/nextjs': ^0.11.0
   '@graphql-ez/plugin-codegen': ^0.8.0
   '@graphql-ez/plugin-graphiql': ^0.12.0
-  '@graphql-ez/plugin-schema': ^0.8.6
+  '@graphql-ez/plugin-schema': ^0.9.0
   '@types/node': ^18.11.17
   '@types/react': ^18.0.26
   concurrently: ^7.6.0
@@ -28,7 +28,7 @@ dependencies:
   '@graphql-ez/nextjs': 0.11.0_3d672a44a2c419152b008eafbf5290d0
   '@graphql-ez/plugin-codegen': 0.8.0_e102ab7a55e7d0aae079d8f15a802584
   '@graphql-ez/plugin-graphiql': 0.12.0_e102ab7a55e7d0aae079d8f15a802584
-  '@graphql-ez/plugin-schema': 0.8.6_e102ab7a55e7d0aae079d8f15a802584
+  '@graphql-ez/plugin-schema': 0.9.0_e102ab7a55e7d0aae079d8f15a802584
   gqty: 2.3.0_graphql@16.6.0
   graphql: 16.6.0
   graphql-ez: 0.15.2_1441feab1e6824e1ed705c336f74a99c
@@ -867,17 +867,17 @@ packages:
       - graphql
     dev: false
 
-  /@graphql-ez/plugin-schema/0.8.6_e102ab7a55e7d0aae079d8f15a802584:
-    resolution: {integrity: sha512-4U+ohiQlkrwfnztXXal8V8tDxhoeWhIoRVf83h5kCwRagZIx8DQ3eiOnYdxh/kqyGE5TquGU9+RGPR+oF463FQ==}
+  /@graphql-ez/plugin-schema/0.9.0_e102ab7a55e7d0aae079d8f15a802584:
+    resolution: {integrity: sha512-53qxFKiZcDQyyu25mkCIicy1pAfSPca2hgTHWYsS1SRkrIiGMK3tQ/WRkFE6FTOfgnrh6Inx4PA0YEVDWqZCow==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
       graphql: '*'
-      graphql-ez: ^0.15.0
+      graphql-ez: ^0.16.0
     peerDependenciesMeta:
       graphql:
         optional: true
     dependencies:
-      '@graphql-ez/utils': 0.1.5_1441feab1e6824e1ed705c336f74a99c
+      '@graphql-ez/utils': 0.2.0_1441feab1e6824e1ed705c336f74a99c
       '@graphql-tools/schema': 9.0.12_graphql@16.6.0
       '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
@@ -888,16 +888,6 @@ packages:
 
   /@graphql-ez/utils/0.1.4_1441feab1e6824e1ed705c336f74a99c:
     resolution: {integrity: sha512-k2ELk9EIGeotxx1gmGRGKKqtPgHaTN/o9T3M2vGTAmhySRxSwDidHVotDGgEDCUoEFGVeqb0doXn215A/x8rlA==}
-    peerDependencies:
-      '@types/node': '*'
-      graphql: '*'
-    dependencies:
-      '@types/node': 18.11.17
-      graphql: 16.6.0
-    dev: false
-
-  /@graphql-ez/utils/0.1.5_1441feab1e6824e1ed705c336f74a99c:
-    resolution: {integrity: sha512-KD5/StW8VlFU0KaNnHzouS/3I1ELz6mhzz23V4zEm3PQ8ii7jpmtcfsSGLr5RfWkG6fF/icar+WI6SgdOWu9hw==}
     peerDependencies:
       '@types/node': '*'
       graphql: '*'
