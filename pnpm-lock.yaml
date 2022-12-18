@@ -5,7 +5,7 @@ specifiers:
   '@gqty/logger': ^2.0.2
   '@gqty/react': ^2.1.1
   '@graphql-ez/nextjs': ^0.10.2
-  '@graphql-ez/plugin-codegen': ^0.7.11
+  '@graphql-ez/plugin-codegen': ^0.7.12
   '@graphql-ez/plugin-graphiql': ^0.11.6
   '@graphql-ez/plugin-schema': ^0.8.5
   '@types/node': ^18.11.17
@@ -26,7 +26,7 @@ dependencies:
   '@gqty/logger': 2.0.2_gqty@2.3.0
   '@gqty/react': 2.1.1_99d12d88143d3fa10a757ce102c3b75c
   '@graphql-ez/nextjs': 0.10.2_3d672a44a2c419152b008eafbf5290d0
-  '@graphql-ez/plugin-codegen': 0.7.11_e102ab7a55e7d0aae079d8f15a802584
+  '@graphql-ez/plugin-codegen': 0.7.12_e102ab7a55e7d0aae079d8f15a802584
   '@graphql-ez/plugin-graphiql': 0.11.6_e102ab7a55e7d0aae079d8f15a802584
   '@graphql-ez/plugin-schema': 0.8.5_e102ab7a55e7d0aae079d8f15a802584
   gqty: 2.3.0_graphql@16.6.0
@@ -684,25 +684,25 @@ packages:
     resolution: {integrity: sha512-QJMlzts//d0H5mlekOZgx1a4KsTYXfxmRhhx8g/8mvzdaNVPxhFzCsv3+ljTOzbW3A08qy4jXQPWAMoTefSJDQ==}
     dev: false
 
-  /@graphql-codegen/core/2.6.0_graphql@16.6.0:
-    resolution: {integrity: sha512-7uZGnLCMR/pnh/5CsyI4y5bBvRndNHFs+AWpMUUjDBcjMRrMaavu37VyyYDz4/ob0BnQJt8RTBN9eArS9PLYAQ==}
+  /@graphql-codegen/core/2.6.8_graphql@16.6.0:
+    resolution: {integrity: sha512-JKllNIipPrheRgl+/Hm/xuWMw9++xNQ12XJR/OHHgFopOg4zmN3TdlRSyYcv/K90hCFkkIwhlHFUQTfKrm8rxQ==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-tools/schema': 8.5.0_graphql@16.6.0
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-tools/schema': 9.0.12_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       tslib: 2.4.0
     dev: false
 
-  /@graphql-codegen/plugin-helpers/2.5.0_graphql@16.6.0:
-    resolution: {integrity: sha512-0jM5/14EdM4yow5v8OGOnUmRqfA1gaWkh+J5berqQUpcFYfSQXD6+Idnkiju/jjIypEN7UvbPkC7BgryWVxexA==}
+  /@graphql-codegen/plugin-helpers/3.1.1_graphql@16.6.0:
+    resolution: {integrity: sha512-+V1WK4DUhejVSbkZrAsyv9gA4oQABVrtEUkT7vWq7gSf7Ln6OEM59lDUDsjp5wpLPTBIDJANbAe3qEd+iCB3Ow==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       '@graphql-tools/utils': 8.8.0_graphql@16.6.0
-      change-case-all: 1.0.14
+      change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 16.6.0
       import-from: 4.0.0
@@ -710,40 +710,40 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@graphql-codegen/schema-ast/2.5.0_graphql@16.6.0:
-    resolution: {integrity: sha512-nlF4Yc7h90nmogG2E11TeFJ3/hCkb4SDMSdbJX68b1mhvVEji/kq3zWYKAQ+lAzjZ7HF94Eylm3MrZAjjpCKIA==}
+  /@graphql-codegen/schema-ast/2.6.0_graphql@16.6.0:
+    resolution: {integrity: sha512-6wDVX/mKLXaJ3JwSflRsDJa6/+uEJ0Lg3mOQp3Ao2/jw1mijqAKjYgh1e1rcG+vzXpEmk29TC2ujsqAkKqzgMA==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
       '@graphql-tools/utils': 8.8.0_graphql@16.6.0
       graphql: 16.6.0
       tslib: 2.4.0
     dev: false
 
-  /@graphql-codegen/typed-document-node/2.3.1_graphql@16.6.0:
-    resolution: {integrity: sha512-8EnxV1lYAuWmoPRdc8iSI1odEpiNwaR4kRxgCYuNaCjQsCrGRnF46Vb1rCWG+6veODA3BmOjp0g0sCLM5b6EAA==}
+  /@graphql-codegen/typed-document-node/2.3.10_graphql@16.6.0:
+    resolution: {integrity: sha512-FcEKubvEl2bHZG2N7u0AwioRYQmhBDRb/JXNBoNXjv9hg32juwejbilS9WWxgcxS13nPj14byEPfHs6GDrKZLw==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/visitor-plugin-common': 2.11.1_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-codegen/visitor-plugin-common': 2.13.5_graphql@16.6.0
       auto-bind: 4.0.0
-      change-case-all: 1.0.14
+      change-case-all: 1.0.15
       graphql: 16.6.0
       tslib: 2.4.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@graphql-codegen/typescript-operations/2.5.1_graphql@16.6.0:
-    resolution: {integrity: sha512-lGv+sPDXGcp/vDdIh7SoQjz8BRCZhLats4Hbqnf6gB7UtIasMvGuFDQyrKb3XAkQQYWqx/xtmEo0rBN8syV+Wg==}
+  /@graphql-codegen/typescript-operations/2.5.10_graphql@16.6.0:
+    resolution: {integrity: sha512-N5H7JhcMRzjM2KdvCitqkOd4hphzD9q3NVWGLvBe3Xgqx5Cs3Y4GUcCJbRolSXdQcYBVgZpLZrUe/qoxwYyfeg==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/typescript': 2.7.1_graphql@16.6.0
-      '@graphql-codegen/visitor-plugin-common': 2.11.1_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-codegen/typescript': 2.8.5_graphql@16.6.0
+      '@graphql-codegen/visitor-plugin-common': 2.13.5_graphql@16.6.0
       auto-bind: 4.0.0
       graphql: 16.6.0
       tslib: 2.4.0
@@ -751,14 +751,14 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-codegen/typescript-resolvers/2.7.1_graphql@16.6.0:
-    resolution: {integrity: sha512-vFq4tn7werBF8LEk33aVRtmT8B4pOEI/59Iy7OfxcRtZd+Pn3g8xKTezI2STyBj3ZA8nf7j8vX9Dh9BgoxmV3g==}
+  /@graphql-codegen/typescript-resolvers/2.7.10_graphql@16.6.0:
+    resolution: {integrity: sha512-MCts4Vq4l8j5zxbfSjm3bkqYOsMWF9yzzNakYSTWsQZqxqAggsiMz18GTdhQvWCtFt6eKYadVrX3WDZBLuAHOA==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/typescript': 2.7.1_graphql@16.6.0
-      '@graphql-codegen/visitor-plugin-common': 2.11.1_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-codegen/typescript': 2.8.5_graphql@16.6.0
+      '@graphql-codegen/visitor-plugin-common': 2.13.5_graphql@16.6.0
       '@graphql-tools/utils': 8.8.0_graphql@16.6.0
       auto-bind: 4.0.0
       graphql: 16.6.0
@@ -767,14 +767,14 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-codegen/typescript/2.7.1_graphql@16.6.0:
-    resolution: {integrity: sha512-qF4SBMgBnLcegba2s9+zC3NwgRhU0Kv+eS8kl9G5ldEHx9Bpu2tft+lk6fjqqhExDzJT+MEOU3Ecog3BzL2R1g==}
+  /@graphql-codegen/typescript/2.8.5_graphql@16.6.0:
+    resolution: {integrity: sha512-5w3zNlnNKM9tI5ZRbhESmsJ4G16rSiFmNQX6Ot56fmcYUC6bnAt5fqvSqs2C+8fVGIIjeWuwjQA5Xn1VkaLY8A==}
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/schema-ast': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/visitor-plugin-common': 2.11.1_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-codegen/schema-ast': 2.6.0_graphql@16.6.0
+      '@graphql-codegen/visitor-plugin-common': 2.13.5_graphql@16.6.0
       auto-bind: 4.0.0
       graphql: 16.6.0
       tslib: 2.4.0
@@ -782,17 +782,17 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-codegen/visitor-plugin-common/2.11.1_graphql@16.6.0:
-    resolution: {integrity: sha512-AlrtGWKn2o89SPna75ATEHYAu95MUMucgBqLgcRvK9n/PHhVAbkDrNCH5pL03fE0HLOup3GpjX8DcnFBMU46IA==}
+  /@graphql-codegen/visitor-plugin-common/2.13.5_graphql@16.6.0:
+    resolution: {integrity: sha512-OV/mGnSvB/WkEqFu/3bPkAPDNRGRB3xONww5+06CObl383yGrasqM04shYYK4cpcCn9PVWFe8u0SLSEeGmMVrg==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
       '@graphql-tools/optimize': 1.3.0_graphql@16.6.0
       '@graphql-tools/relay-operation-optimizer': 6.5.0_graphql@16.6.0
       '@graphql-tools/utils': 8.8.0_graphql@16.6.0
       auto-bind: 4.0.0
-      change-case-all: 1.0.14
+      change-case-all: 1.0.15
       dependency-graph: 0.11.0
       graphql: 16.6.0
       graphql-tag: 2.12.5_graphql@16.6.0
@@ -824,8 +824,8 @@ packages:
       next: 13.0.7_react-dom@18.2.0+react@18.2.0
     dev: false
 
-  /@graphql-ez/plugin-codegen/0.7.11_e102ab7a55e7d0aae079d8f15a802584:
-    resolution: {integrity: sha512-IStQL+jFYH8wfWd8DybRIkuGpFTEXchcq4nUEb8AFDJ+RivG/w6w2bLVLEooXlSsBhzgThHESm5nA9bVUXeo8Q==}
+  /@graphql-ez/plugin-codegen/0.7.12_e102ab7a55e7d0aae079d8f15a802584:
+    resolution: {integrity: sha512-clVyf7I0iJ77/V73Vp94qcCT522KsYKQ7rcrNbmYl472oGd2gbkZiutwZqreQklY5ULp1097AgsksZ5AL2rHFA==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
       graphql: '*'
@@ -834,20 +834,20 @@ packages:
       graphql:
         optional: true
     dependencies:
-      '@graphql-codegen/core': 2.6.0_graphql@16.6.0
-      '@graphql-codegen/plugin-helpers': 2.5.0_graphql@16.6.0
-      '@graphql-codegen/typed-document-node': 2.3.1_graphql@16.6.0
-      '@graphql-codegen/typescript': 2.7.1_graphql@16.6.0
-      '@graphql-codegen/typescript-operations': 2.5.1_graphql@16.6.0
-      '@graphql-codegen/typescript-resolvers': 2.7.1_graphql@16.6.0
-      '@graphql-ez/utils': 0.1.4_1441feab1e6824e1ed705c336f74a99c
-      '@graphql-tools/graphql-file-loader': 7.4.0_graphql@16.6.0
-      '@graphql-tools/load': 7.7.0_graphql@16.6.0
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-codegen/core': 2.6.8_graphql@16.6.0
+      '@graphql-codegen/plugin-helpers': 3.1.1_graphql@16.6.0
+      '@graphql-codegen/typed-document-node': 2.3.10_graphql@16.6.0
+      '@graphql-codegen/typescript': 2.8.5_graphql@16.6.0
+      '@graphql-codegen/typescript-operations': 2.5.10_graphql@16.6.0
+      '@graphql-codegen/typescript-resolvers': 2.7.10_graphql@16.6.0
+      '@graphql-ez/utils': 0.1.5_1441feab1e6824e1ed705c336f74a99c
+      '@graphql-tools/graphql-file-loader': 7.5.13_graphql@16.6.0
+      '@graphql-tools/load': 7.8.8_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       graphql-ez: 0.15.2_1441feab1e6824e1ed705c336f74a99c
       mkdirp: 1.0.4
-      prettier: 2.7.1
+      prettier: 2.8.1
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
@@ -896,37 +896,47 @@ packages:
       graphql: 16.6.0
     dev: false
 
-  /@graphql-tools/graphql-file-loader/7.4.0_graphql@16.6.0:
-    resolution: {integrity: sha512-r1lslE5GlWO/nbDX82enHjvva7qQiZEIPm+LC9JSgKaYuVoYHuIuIAVYkpBHeaRK1Kbh/86pEhL7PuBZ/cIWSA==}
+  /@graphql-ez/utils/0.1.5_1441feab1e6824e1ed705c336f74a99c:
+    resolution: {integrity: sha512-KD5/StW8VlFU0KaNnHzouS/3I1ELz6mhzz23V4zEm3PQ8ii7jpmtcfsSGLr5RfWkG6fF/icar+WI6SgdOWu9hw==}
+    peerDependencies:
+      '@types/node': '*'
+      graphql: '*'
+    dependencies:
+      '@types/node': 18.11.17
+      graphql: 16.6.0
+    dev: false
+
+  /@graphql-tools/graphql-file-loader/7.5.13_graphql@16.6.0:
+    resolution: {integrity: sha512-VWFVnw3aB6sykGfpb/Dn3sxQswqvp2FsVwDy8ubH1pgLuxlDuurhHjRHvMG2+p7IaHC7q8T3Vk/rLtZftrwOBQ==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/import': 6.7.0_graphql@16.6.0
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-tools/import': 6.7.14_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       globby: 11.0.4
       graphql: 16.6.0
       tslib: 2.4.0
       unixify: 1.0.0
     dev: false
 
-  /@graphql-tools/import/6.7.0_graphql@16.6.0:
-    resolution: {integrity: sha512-u9JL4fClKKyBTQpgb4QFacYUwgBCs4lW1NaHX0hD2zBdahIYidokBY0QkOqOCEAnWeFqpEmAjB62ulLiAJWc2g==}
+  /@graphql-tools/import/6.7.14_graphql@16.6.0:
+    resolution: {integrity: sha512-lRX/MHM0Km497kg4VXMvtV1DeG/AfPJFO2ovaL0kDujWEdyCsWxsB4whY7nPeiNaPA/nT3mQ8MU7yFzVjogF/Q==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       resolve-from: 5.0.0
       tslib: 2.4.0
     dev: false
 
-  /@graphql-tools/load/7.7.0_graphql@16.6.0:
-    resolution: {integrity: sha512-6KX7Z8BtlFScDr0pIac92QZWlPGbHcpNMesX/6Y3Vsp3FeFnAYfzZldXZQcJoW7Yl+gHdFwYVq683wSH64kNrw==}
+  /@graphql-tools/load/7.8.8_graphql@16.6.0:
+    resolution: {integrity: sha512-gMuQdO2jXmI0BNUc1MafxRQTWVMUtuH500pZAQtOdDdNJppV7lJdY6mMhITQ2qnhYDuMrcZPHhIkcftyQfkgUg==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/schema': 8.5.0_graphql@16.6.0
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-tools/schema': 9.0.12_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       p-limit: 3.1.0
       tslib: 2.4.0
@@ -942,12 +952,12 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@graphql-tools/merge/8.3.0_graphql@16.6.0:
-    resolution: {integrity: sha512-xRa7RAQok/0DD2YnjuqikMrr7dUAxTpdGtZ7BkvUUGhYs3B3p7reCAfvOVr1DJAqVToP7hdlMk+S5+Ylk+AaqA==}
+  /@graphql-tools/merge/8.3.14_graphql@16.6.0:
+    resolution: {integrity: sha512-zV0MU1DnxJLIB0wpL4N3u21agEiYFsjm6DI130jqHpwF0pR9HkF+Ni65BNfts4zQelP0GjkHltG+opaozAJ1NA==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       tslib: 2.4.0
     dev: false
@@ -986,13 +996,13 @@ packages:
       value-or-promise: 1.0.11
     dev: false
 
-  /@graphql-tools/schema/8.5.0_graphql@16.6.0:
-    resolution: {integrity: sha512-VeFtKjM3SA9/hCJJfr95aEdC3G0xIKM9z0Qdz4i+eC1g2fdZYnfWFt2ucW4IME+2TDd0enHlKzaV0qk2SLVUww==}
+  /@graphql-tools/schema/9.0.12_graphql@16.6.0:
+    resolution: {integrity: sha512-DmezcEltQai0V1y96nwm0Kg11FDS/INEFekD4nnVgzBqawvznWqK6D6bujn+cw6kivoIr3Uq//QmU/hBlBzUlQ==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/merge': 8.3.0_graphql@16.6.0
-      '@graphql-tools/utils': 8.8.0_graphql@16.6.0
+      '@graphql-tools/merge': 8.3.14_graphql@16.6.0
+      '@graphql-tools/utils': 9.1.3_graphql@16.6.0
       graphql: 16.6.0
       tslib: 2.4.0
       value-or-promise: 1.0.11
@@ -1009,6 +1019,15 @@ packages:
 
   /@graphql-tools/utils/8.8.0_graphql@16.6.0:
     resolution: {integrity: sha512-KJrtx05uSM/cPYFdTnGAS1doL5bftJLAiFCDMZ8Vkifztz3BFn3gpFiy/o4wDtM8s39G46mxmt2Km/RmeltfGw==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      graphql: 16.6.0
+      tslib: 2.4.0
+    dev: false
+
+  /@graphql-tools/utils/9.1.3_graphql@16.6.0:
+    resolution: {integrity: sha512-bbJyKhs6awp1/OmP+WKA1GOyu9UbgZGkhIj5srmiMGLHohEOKMjW784Sk0BZil1w2x95UPu0WHw6/d/HVCACCg==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
@@ -1171,7 +1190,7 @@ packages:
   /@pablosz/graphql-helix-graphiql/4.2.1_1441feab1e6824e1ed705c336f74a99c:
     resolution: {integrity: sha512-dBxg7MbXwdU2uonXuIJXqjgYfrm0HQuP0Xrp242c4dTA+/PWb0WgM8XIrBYqOb8xAsw/mXNS2034kjytkPQMhA==}
     dependencies:
-      '@graphql-ez/utils': 0.1.4_1441feab1e6824e1ed705c336f74a99c
+      '@graphql-ez/utils': 0.1.5_1441feab1e6824e1ed705c336f74a99c
     transitivePeerDependencies:
       - '@types/node'
       - graphql
@@ -1432,8 +1451,8 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  /change-case-all/1.0.14:
-    resolution: {integrity: sha512-CWVm2uT7dmSHdO/z1CXT/n47mWonyypzBbuCy5tN7uMg22BsfkhwT6oHmFCAk+gL1LOOxhdbB9SZz3J1KTY3gA==}
+  /change-case-all/1.0.15:
+    resolution: {integrity: sha512-3+GIFhk3sNuvFAJKU46o26OdzudQlPNBCu1ZQi3cMeMHhty1bhDxu2WrEilVNYaGvqUtR1VSigFcJOiS13dRhQ==}
     dependencies:
       change-case: 4.1.2
       is-lower-case: 2.0.2
@@ -1514,7 +1533,7 @@ packages:
     dev: false
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: false
 
   /concurrently/7.6.0:
@@ -1754,7 +1773,7 @@ packages:
     dev: true
 
   /fs.realpath/1.0.0:
-    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: false
 
   /function-bind/1.1.1:
@@ -1927,7 +1946,7 @@ packages:
     dev: true
 
   /inflight/1.0.6:
-    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=}
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -1967,7 +1986,7 @@ packages:
     dev: true
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -2321,7 +2340,7 @@ packages:
     dev: false
 
   /once/1.4.0:
-    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
     dev: false
@@ -2424,7 +2443,7 @@ packages:
     engines: {node: '>=8'}
 
   /path-is-absolute/1.0.1:
-    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -2474,8 +2493,8 @@ packages:
     hasBin: true
     dev: false
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: false
@@ -2970,7 +2989,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: false
 
   /y18n/4.0.3:
