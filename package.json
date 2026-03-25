@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@gqty/cli": "^3.3.0",
+    "@gqty/cli": "^5.0.0",
     "@gqty/logger": "^2.0.2",
     "@gqty/react": "^2.1.1",
     "@graphql-ez/nextjs": "^0.11.1",
